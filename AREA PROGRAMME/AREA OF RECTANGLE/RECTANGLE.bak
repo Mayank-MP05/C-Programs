@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+
+{
+float l,b,area;
+clrscr();
+printf("\t\t\tENTER THE LENGTH OF THE RECTANGLE :-\n");
+scanf("%f",&l);
+
+printf("\n\n\n\n\t\t\tENTER THE WIDTH OF THE RECTANGLE :-\n");
+scanf("%f",&b);
+
+area=l*b;
+
+printf("AREA OF THE RECTANGLE IS %f",area);
+}

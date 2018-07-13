@@ -1,0 +1,9 @@
+#include <stdio.h>
+#include <conio.h>
+
+void main()
+{
+clrcsr();
+printf("MAIN HUN DON\n\n");
+getch();
+}

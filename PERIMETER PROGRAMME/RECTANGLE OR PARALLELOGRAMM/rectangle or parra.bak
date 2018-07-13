@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <conio.h>
+
+void main()
+
+{
+float l,b,p;
+clrscr();
+
+printf("ENTER THE LENGTH OF RECTANGLE OR A PARALLELOGRAM :-");
+scanf("%f",&l);
+
+printf("ENTER THE BREADTH OF RECTANGLE OR A PARALLELOGRAM :-");
+scanf("%f",&b);
+
+p=2*l+2*b;
+
+printf("PERIMETER OF THE GIVEN RECTANGLE IS %f",p);
+
+getch();
+}

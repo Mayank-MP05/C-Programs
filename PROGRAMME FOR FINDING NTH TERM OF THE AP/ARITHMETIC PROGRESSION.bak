@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <conio.h>
+
+void main()
+{
+int a,d,z;
+
+printf("ENTER THE INTITIAL NUMBER :-\n\n");
+scanf("%d",&a);
+
+printf("\n\nENTER THE DIFFERENCE BETWEEN NUMBER :-\n\n");
+scanf("%d",&d);
+
+printf("\n\nENTER THE FINAL NUMBER :-\n\n");
+scanf("%d",&z);
+
+printf("\n\n THE SERIES IS :-\n\n");
+
+while(a<z)
+{
+printf("\t\t%d\n\n",a);
+a+=d;
+}
+getch();
+}

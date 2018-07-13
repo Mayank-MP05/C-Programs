@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <conio.h>
+
+void main()
+
+{
+float side,SA,vol;
+
+printf("ENTER THE LENGTH OF SIDE OF THE CUBE :-    ");
+scanf("%f",&side);
+
+vol=side*side*side;
+SA=6*side*side;
+
+printf("\n\n\nTHE VOLUME OF THE CUBE IS :-    ",vol);
+
+
+printf("\n\n\nTHE SURFACE AREA OF THE CUBE IS  :-   ",SA);
+
+getch();
+}

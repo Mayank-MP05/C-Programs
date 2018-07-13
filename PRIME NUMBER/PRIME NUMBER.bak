@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <conio.h>
+
+void main()
+
+{
+int input,div,a;
+clrscr();
+printf("ENTER THE NUMBER TO CHECK IT IS PRIME OR NOT :-\n\n\n");
+scanf("%d",&input);
+
+for(div =1;div<=input;div++)
+{
+a=input%div;
+if(a==0)
+{
+printf("IT IS A PRIME NUMBER\n");
+}else{
+printf("IT IS NOT A PRIME NUMBER\n");
+}
+}
+getch();
+}

@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <conio.h>
+
+void main()
+
+{
+int t1,t2,t3,i;
+clrscr();
+t1=0;
+t2=1;
+
+printf("ENTER HOW MANY TERM DID YOU WANT :-");
+scanf("%d",&i);
+
+while(i>0)
+{
+t3=t1+t2;
+t1=t2;
+t2=t3;
+printf("\t %d \n",t3);
+}
+
+}

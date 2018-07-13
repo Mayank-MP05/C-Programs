@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <conio.h>
+#include <string.h>
+
+void main()
+
+{
+char name[20];
+clrscr();
+printf("\n\t\t\tENTER YOUR NAME :-\n\n\t\t\t");
+scanf("%s",name);
+printf("\n\n\t\t\tLENGTH OF YOUR NAME IS %d",strlen(name));
+getch();
+
+}

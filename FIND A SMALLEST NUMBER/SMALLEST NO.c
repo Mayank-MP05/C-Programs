@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <conio.h>
+
+void main()
+
+
+{
+
+
+clrscr ();
+int a,b,c,d,e;
+printf("\t\tPLEASE ENTER THE THREE NUMBERS :-");
+
+scanf("%d%d%d",&a,&b,&c);
+
+
+d=(a<b?a:b);
+e=(d<c?d:c);
+
+
+printf("\n\n\t\t\tSMALLEST AMONG THESE THREE IS %d",e);
+getch();
+
+
+}

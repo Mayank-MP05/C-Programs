@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+float princi,rate,time,si;
+clrscr();
+printf("***************** Simple Interest Calculator ******************");
+printf("\n\tENTER THE PRINCIPAL :-\t");
+scanf("%f",&princi);
+printf("ENTER THE RATE OF INTEREST :-\t");
+scanf("%f",&rate);
+printf("ENTER THE TIME PERIOD OF LOAN :-\t");
+scanf("%f",&time);
+
+si=princi*rate*time/100;
+
+printf("SIMPLE INTEREST = %f",si);
+getch();
+
+}

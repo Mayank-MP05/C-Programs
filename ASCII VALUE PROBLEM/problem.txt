@@ -1,0 +1,1 @@
+any character is a input through the keyboard,write aprogramme to determine wheather the character entered is a capital letter or small case letter or a digit or a special symbol

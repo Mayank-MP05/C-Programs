@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <conio.h>
+#include <string.h>
+
+void main()
+
+{
+char str1[50],str2[50];
+
+printf("ENTER THE FULL \ SOURCE STRING :-\n\n\n");
+scanf("%s",str1);
+
+printf("ENTER THE SEARCH STRING :-\n\n\n");
+scanf("%s",str2);
+
+if(strstr(str1,str2)==0)
+{
+printf("SORRY,GIVEN STRING CANNOT BE FOUND IN THE SURCE STRING\n");
+}else{
+printf("YA,GR8 GIVEN STRING IS FOUND");
+}
+}
+
